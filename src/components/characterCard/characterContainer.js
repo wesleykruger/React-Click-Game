@@ -77,7 +77,6 @@ class CharacterContainer extends Component {
 
 
     componentDidMount() {
-        console.dir(this.state.charArr);
         this.shuffleArray(this.state.charArr)
     }
 
@@ -97,13 +96,15 @@ class CharacterContainer extends Component {
         if (this.state.clickedArr.includes(name)) {
             this.setState({
                 score: 0,
-                banner: "Wrong! Try again!"
+                banner: "Wrong! Try again!",
+                clickedArr: []
             })
         } else {
-            // Picture has not yet been clicked, add point and contine
+            // Picture has not yet been clicked, add point and continue
             let newScore = this.state.score += 1;
-            let fancyNewArray = [];
+            let fancyNewArray = this.state.clickedArr;
             fancyNewArray.push(name);
+            console.dir(this.state.clickedArr)
             this.setState({
                 clickedArr: fancyNewArray,
                 score: newScore,
@@ -116,8 +117,6 @@ class CharacterContainer extends Component {
             }
         }
 
-        console.log("about to shuffle line 117 : ");
-        console.dir(this.state.charArr)
         this.shuffleArray(this.state.charArr);
 
     }
