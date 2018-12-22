@@ -1,14 +1,10 @@
 import React from "react";
-import { Col, Row, Container } from "../Grid";
 
-function CharacterItem(props) {
+export function CharacterItem(props) {
   return (
-    <div className="card">
-      <div className="img-container">
-        <img alt={props.name} src={props.src} />
-      </div>
+    <div {...props} >     
+       <img alt={props.name} src={props.src} />
+       {props.children}
     </div>
-  )
+  );
 }
-
-export default CharacterItem

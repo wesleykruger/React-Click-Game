@@ -9,3 +9,27 @@ img {
     box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
     cursor: pointer;
 }
+
+.background {
+    background-image: url('./../../images/Hogwarts.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    color: #ffff;
+    font-size: 20px;
+    white-space: nowrap;
+    background-color: purple;
+    width: 100%;
+    margin-bottom: 60px;
+    @font-face {
+        font-family: Lumos;
+        src: url("./../../images/LUMOS.TTF");
+    }
+}
+
+.playArea {
+    background-color: #ffff;
+}
