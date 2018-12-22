@@ -2,7 +2,7 @@
   "name": "click-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/wesleykruger/React-Click-Game",
+  "homepage": "https://wesleykruger.github.io/React-Click-Game/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.6.3",
