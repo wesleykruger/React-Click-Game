@@ -91,7 +91,6 @@ class CharacterContainer extends Component {
 
 
     handleCharClick = name => {
-        //console.dir(this.state)
         // Picture has been previously clicked, reset game
         if (this.state.clickedArr.includes(name)) {
             this.setState({
@@ -104,7 +103,6 @@ class CharacterContainer extends Component {
             let newScore = this.state.score += 1;
             let fancyNewArray = this.state.clickedArr;
             fancyNewArray.push(name);
-            console.dir(this.state.clickedArr)
             this.setState({
                 clickedArr: fancyNewArray,
                 score: newScore,
