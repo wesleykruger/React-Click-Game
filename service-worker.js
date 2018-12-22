@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/wesleykruger/React-Click-Game/precache-manifest.810e60b5324885b92be5267d56c4bdad.js"
+  "/React-Click-Game/precache-manifest.dcefaf6cc83aba640d0d1859dbf43551.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/wesleykruger/React-Click-Game/index.html", {
+workbox.routing.registerNavigationRoute("/React-Click-Game/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
