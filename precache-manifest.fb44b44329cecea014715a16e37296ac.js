@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/React-Click-Game/static/media/Hermione.69699270.jpg"
   },
   {
-    "revision": "8066a0be1dd14225d212",
+    "revision": "8dfdaa66dcc7d87feaab",
     "url": "/React-Click-Game/static/css/main.d8f070dd.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/React-Click-Game/static/media/Ginny.0fea9b04.jpg"
   },
   {
-    "revision": "8066a0be1dd14225d212",
-    "url": "/React-Click-Game/static/js/main.8066a0be.chunk.js"
+    "revision": "8dfdaa66dcc7d87feaab",
+    "url": "/React-Click-Game/static/js/main.8dfdaa66.chunk.js"
   },
   {
     "revision": "667a600abe7ecc9c445f736316611cff",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/React-Click-Game/static/media/LUMOS.d5d39b03.TTF"
   },
   {
-    "revision": "d50c260cd5027810462d07051ff90c80",
+    "revision": "33f5171c7d63c77a6b36b91ba7b32b7b",
     "url": "/React-Click-Game/index.html"
   }
 ];
